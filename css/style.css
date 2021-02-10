@@ -11,6 +11,9 @@ ul, li, h1, h2, h3, h4, h5, p {
 }
 
 body {
+	background-image: url(../images/bg_white.png);
+	background-repeat: repeat-x;
+	background-position: top center;
 	background-color: #e2e2e2;
 	margin: 0px;
 	padding: 0px;
@@ -21,7 +24,6 @@ body {
 .container {
 	width: 916px;
 	margin: 0 auto;
-	/*outline: 1px solid #fff;*/
 }
 
 .logo {
@@ -68,7 +70,8 @@ nav a:hover {
 }
 
 .slider {
-	background-image: linear-gradient(to bottom, rgba(255,255,255,0.05), rgba(255,255,255,0.80), rgba(255,255,255,0.80), rgba(255,255,255,0.05));
+	/*background-image: linear-gradient(to bottom, rgba(255,255,255,0.05), rgba(255,255,255,0.80), rgba(255,255,255,0.80), rgba(255,255,255,0.05));*/
+
 }
 
 .slider .container {
