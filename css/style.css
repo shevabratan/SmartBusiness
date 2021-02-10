@@ -67,9 +67,12 @@ nav a:hover {
 	color: #fff;
 }
 
+.slider {
+	background-image: linear-gradient(to bottom, rgba(255,255,255,0.05), rgba(255,255,255,0.80), rgba(255,255,255,0.80), rgba(255,255,255,0.05));
+}
+
 .slider .container {
 	background-image: url(../images/banner.png);
-	width: 1000px;
 	height: 427px;
 	text-align: center;
 }
