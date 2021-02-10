@@ -245,11 +245,15 @@ main {
 
 .lists {
 	float: left;
-	margin-left: 52px;
+	margin: 0px -8px 40px 52px;
 	list-style-image: url(../images/list_icon.png);
-	margin-bottom: 40px;
-	
 }
+
+.ul_left_line {
+	border-right: 1px solid #dadada;
+	padding-right: 55px;
+}
+
 
 .lists li a {
 	font-family: arial;
